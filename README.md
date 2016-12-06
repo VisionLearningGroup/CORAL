@@ -48,10 +48,10 @@ If you find this project is useful in your research, please consider citing:
 3. Deep CORAL
 ```
 @inproceedings{dcoral,
-  author    = {Baochen Sun and Kate Saenko},
-  title     = {Deep CORAL: Correlation Alignment for Deep Domain Adaptation},
-  booktitle   = {ECCV 2016 Workshops},
-  year      = {2016}
+  author = {Baochen Sun and Kate Saenko},
+  title = {Deep CORAL: Correlation Alignment for Deep Domain Adaptation},
+  booktitle = {ECCV 2016 Workshops},
+  year = {2016}
 }
 ```
 
