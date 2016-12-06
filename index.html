@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Coral : Correlation Alignment for Domain Adaptation">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Coral</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/VisionLearningGroup/CORAL">View on GitHub</a>
+
+          <h1 id="project_title">Coral</h1>
+          <h2 id="project_tagline">Correlation Alignment for Domain Adaptation</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/VisionLearningGroup/CORAL/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/VisionLearningGroup/CORAL/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="correlation-alignment-for-domain-adaptation" class="anchor" href="#correlation-alignment-for-domain-adaptation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Correlation Alignment for Domain Adaptation</h1>
+
+<p>Welcome to the website of CORAL framework. CORrelation ALignment or CORAL in short is a simple yet effective method for unsupervised domain adaptation. CORAL minimizes domain shift by aligning the second-order statistics of source and target distributions, without requiring any target labels. There are mainly three parts of the CORAL framework. In the AAAI'16 paper (reference 1), we first describe a solution that applies a linear transformation to source features to align them with target features before classifier training. For linear classifiers, we propose to equivalently apply CORAL to the classifier weights, leading to added efficiency when the number of classifiers is small but the number and dimensionality of target examples are very high. The resulting CORAL Linear Discriminant Analysis (CORAL-LDA) (reference 2) outperforms LDA by a large margin on standard domain adaptation benchmarks. Finally, we extend CORAL to learn a nonlinear transformation that aligns correlations of layer activations in deep neural networks (DNNs). The resulting Deep CORAL (reference 3) approach works seamlessly with DNNs and achieves state-of-the-art performance on standard benchmark datasets.</p>
+
+<h2>
+<a id="source-code-and-data" class="anchor" href="#source-code-and-data" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Source Code and Data</h2>
+
+<ol>
+<li>CORAL: the source code is in code/CORAL_Source_Code.zip, the data used in reference 1 is included in /dataset folder</li>
+<li>CORAL-LDA: the code and data can be found <a href="https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality">here</a>
+</li>
+<li>Deep-CORAL: the source code is in code/D-CORAL.zip, the data used is the standard Office31 dataset</li>
+</ol>
+
+<h2>
+<a id="data-processing-for-domain-adaptation" class="anchor" href="#data-processing-for-domain-adaptation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data Processing for Domain Adaptation</h2>
+
+<h2>
+<a id="domain-adaptation-equilibrium" class="anchor" href="#domain-adaptation-equilibrium" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Domain Adaptation Equilibrium</h2>
+
+<h2>
+<a id="citation" class="anchor" href="#citation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Citation</h2>
+
+<p>If you find this project is useful in your research, please consider citing:</p>
+
+<ol>
+<li>CORAL</li>
+</ol>
+
+<pre><code>@inproceedings{coral,
+  title={Return of Frustratingly Easy Domain Adaptation},
+  author={Sun, Baochen and Feng, Jiashi and Saenko, Kate},
+  booktitle={AAAI},
+  year={2016}
+}
+</code></pre>
+
+<ol>
+<li>CORAL-LDA</li>
+</ol>
+
+<pre><code>@inproceedings{coral-lda,
+    Author = {Baochen Sun and Kate Saenko},
+    Title = {From Virtual to Reality: Fast Adaptation of Virtual Object Detectors to Real Domains},
+    Booktitle = {BMVC},
+    Year = {2014}
+}
+</code></pre>
+
+<ol>
+<li>Deep CORAL</li>
+</ol>
+
+<pre><code>@inproceedings{dcoral,
+  author    = {Baochen Sun and Kate Saenko},
+  title     = {Deep CORAL: Correlation Alignment for Deep Domain Adaptation},
+  booktitle   = {ECCV 2016 Workshops},
+  year      = {2016}
+}
+</code></pre>
+
+<h2>
+<a id="faq" class="anchor" href="#faq" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FAQ</h2>
+
+<p>Please send your further questions to baochens AT gmail DOT com </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Coral maintained by <a href="https://github.com/VisionLearningGroup">VisionLearningGroup</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
