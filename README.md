@@ -28,8 +28,8 @@ If you find this project is useful in your research, please consider citing:
 1. CORAL
 ```
 @inproceedings{coral,
+  author={Baochen Sun and Jiashi Feng and Kate Saenko},
   title={Return of Frustratingly Easy Domain Adaptation},
-  author={Sun, Baochen and Feng, Jiashi and Saenko, Kate},
   booktitle={AAAI},
   year={2016}
 }
