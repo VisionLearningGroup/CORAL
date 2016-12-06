@@ -1,7 +1,7 @@
 Correlation Alignment for Domain Adaptation
 ========
 
-Welcome to the website of CORAL framework. CORrelation ALignment or CORAL in short is a simple yet effective method for unsupervised domain adaptation. CORAL minimizes domain shift by aligning the second-order statistics of source and target distributions, without requiring any target labels. There are mainly three parts of the CORAL framework. In the AAAI'16 paper (reference 1), we first describe a solution that applies a linear transformation to source features to align them with target features before classifier training. For linear classifiers, we propose to equivalently apply CORAL to the classifier weights, leading to added efficiency when the number of classifiers is small but the number and dimensionality of target examples are very high. The resulting CORAL Linear Discriminant Analysis (CORAL-LDA) (reference 2) outperforms LDA by a large margin on standard domain adaptation benchmarks. Finally, we extend CORAL to learn a nonlinear transformation that aligns correlations of layer activations in deep neural networks (DNNs). The resulting Deep CORAL (reference 3) approach works seamlessly with DNNs and achieves state-of-the-art performance on standard benchmark datasets.
+Welcome to the website of CORAL framework. CORrelation ALignment or CORAL in short is a simple yet effective method for unsupervised domain adaptation. CORAL minimizes domain shift by aligning the second-order statistics of source and target distributions, without requiring any target labels. There are mainly three parts of the CORAL framework. In the [CORAL paper](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12443/11842) (reference 1 in the Citation Section below), we describe a solution that applies a linear transformation to source features to align them with target features before classifier training. For linear classifiers, we propose to equivalently apply CORAL to the classifier weights, leading to added efficiency when the number of classifiers is small but the number and dimensionality of target examples are very high. The resulting [CORAL Linear Discriminant Analysis (CORAL-LDA)](https://github.com/UMassLowell-Vision-Group/bmvc2014/raw/master/bmvc14_paper.pdf) (reference 2 in the Citation Section below) outperforms LDA by a large margin on standard domain adaptation benchmarks. Finally, we extend CORAL to learn a nonlinear transformation that aligns correlations of layer activations in deep neural networks (DNNs). The resulting [Deep CORAL](https://arxiv.org/abs/1607.01719) (reference 3 in the Citation Section below) approach works seamlessly with DNNs and achieves state-of-the-art performance on standard benchmark datasets.
 
 
 Source Code and Data
@@ -13,7 +13,7 @@ Source Code and Data
 
 Data Processing for Domain Adaptation
 --------------
-
+Data processing is very importran for domain adaptation applications even though it is rarely mentioned (or not emphasised enough) in the literature. It is more important of ``shallow'' methods s
 
 Domain Adaptation Equilibrium
 --------------
