@@ -9,8 +9,9 @@ Source Code and Data
 2. CORAL-LDA: the code and data can be found [here](https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality)
 3. Deep-CORAL: the source code is in code/D-CORAL.zip, the data used is the standard Office31 dataset
 
-Tips for Domain Adaptation
+Tips for (Visual) Domain Adaptation
 --------------
+The following tips are based on my (Baochen Sun) personal experience and discussions (in person or via email) with others. I found them to be extremely useful to design/apply domain adaptation algorithms yet seldom mentioned/explained in the literature. I put them here and hope it helps :-)
 
 1. Data Processing for Domain Adaptation
 ---------
