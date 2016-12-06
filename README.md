@@ -38,20 +38,20 @@ If you find this project is useful in your research, please consider citing:
 2. CORAL-LDA
 ```
 @inproceedings{coral-lda,
-    Author = {Baochen Sun and Kate Saenko},
-    Title = {From Virtual to Reality: Fast Adaptation of Virtual Object Detectors to Real Domains},
-    Booktitle = {BMVC},
-    Year = {2014}
+    Author={Baochen Sun and Kate Saenko},
+    Title={From Virtual to Reality: Fast Adaptation of Virtual Object Detectors to Real Domains},
+    Booktitle={BMVC},
+    Year={2014}
 }
 ```
 
 3. Deep CORAL
 ```
 @inproceedings{dcoral,
-  author = {Baochen Sun and Kate Saenko},
-  title = {Deep CORAL: Correlation Alignment for Deep Domain Adaptation},
-  booktitle = {ECCV 2016 Workshops},
-  year = {2016}
+  author={Baochen Sun and Kate Saenko},
+  title={Deep CORAL: Correlation Alignment for Deep Domain Adaptation},
+  booktitle={ECCV 2016 Workshops},
+  year={2016}
 }
 ```
 
