@@ -25,7 +25,7 @@ Citation
 --------------
 If you find this project is useful in your research, please consider citing:
 
-1. CORAL
+Reference 1: CORAL
 ```
 @inproceedings{coral,
   author={Baochen Sun and Jiashi Feng and Kate Saenko},
@@ -35,7 +35,7 @@ If you find this project is useful in your research, please consider citing:
 }
 ```
 
-2. CORAL-LDA
+Reference 2: CORAL-LDA
 ```
 @inproceedings{coral-lda,
     Author={Baochen Sun and Kate Saenko},
@@ -45,7 +45,7 @@ If you find this project is useful in your research, please consider citing:
 }
 ```
 
-3. Deep CORAL
+Reference 3: Deep CORAL
 ```
 @inproceedings{dcoral,
   author={Baochen Sun and Kate Saenko},
