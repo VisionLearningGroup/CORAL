@@ -25,7 +25,7 @@ Citation
 --------------
 If you find this project is useful in your research, please consider citing:
 
-Reference 1: CORAL
+Reference 1: [CORAL](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12443/11842)
 ```
 @inproceedings{coral,
   author={Baochen Sun and Jiashi Feng and Kate Saenko},
@@ -35,7 +35,7 @@ Reference 1: CORAL
 }
 ```
 
-Reference 2: CORAL-LDA
+Reference 2: [CORAL-LDA](https://github.com/UMassLowell-Vision-Group/bmvc2014/raw/master/bmvc14_paper.pdf)
 ```
 @inproceedings{coral-lda,
     Author={Baochen Sun and Kate Saenko},
@@ -45,7 +45,7 @@ Reference 2: CORAL-LDA
 }
 ```
 
-Reference 3: Deep CORAL
+Reference 3: [Deep CORAL](https://arxiv.org/abs/1607.01719)
 ```
 @inproceedings{dcoral,
   author={Baochen Sun and Kate Saenko},
