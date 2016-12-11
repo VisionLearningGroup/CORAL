@@ -21,6 +21,10 @@ Data processing is very importrant for domain adaptation applications even thoug
 ---------
 As EXPLICITLY mentioned in [Deep CORAL](https://arxiv.org/abs/1607.01719), there is an equilibrium between aligning the distributions (between the source and target) and keeping the discriminative power of the features (i.e., high classification accuracy). ''Minimizing the classification loss itself is likely to lead to overfitting to the source domain, causing reduced performance on the target domain. On the other hand, minimizing the CORAL loss alone might lead to degenerated features. For example, the network could project all of the source and target data to a single point, making the CORAL loss trivially zero.'' This equilibrium is also IMPLICITLY used in many ''shallow'' methods in a different way. For example, constraining the transformation to be linear can be think of an IMPLICIT way of regularization. 
 
+3. Parameter/Hyper-parameter Tuning
+---------
+TBA
+
 Citation
 --------------
 I highly recommend you to read the [book chapter](https://arxiv.org/abs/1612.01939) for a compresensive introduction of the CORAL framework. Each individual paper listed in this section talks about one part of the framework only.
