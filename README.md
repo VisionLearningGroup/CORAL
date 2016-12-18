@@ -42,6 +42,8 @@ Reference 1: [CORAL](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/downloa
 ```
 
 Reference 2: [CORAL-LDA](https://github.com/UMassLowell-Vision-Group/bmvc2014/raw/master/bmvc14_paper.pdf)
+As can be seen from the title of the paper, another major contribution is ''From Virtual to Reality''. In this paper, we ''(1) we show that freely available non-photorealistic 3D models can be used to train 2D object detectors, in a first such study that evaluates across a large variety of categories; (2) we eliminate the need to generate images that match real-image statistics by utilizing domain-specific image statistics; (3) we present a supervised adaptation approach, and show improved results on a multi-domain dataset.''
+Please refer to [this webpage](https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality) for more detailed information.
 ```
 @inproceedings{coral-lda,
     Author={Baochen Sun and Kate Saenko},
