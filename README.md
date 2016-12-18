@@ -7,7 +7,7 @@ Source Code and Data
 --------------
 1. CORAL: the source code is in code/CORAL_Source_Code.zip, the data used in reference 1 is included in /dataset folder
 2. CORAL-LDA: the code and data can be found [here](https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality)
-3. Deep-CORAL: the source code is in code/D-CORAL.zip, the data used is the standard Office31 dataset
+3. Deep-CORAL: the source code is in code/D-CORAL.zip, sample protofiles and parameters can be found in code/D-CORAL_Office31.zip, the data used is the standard Office31 dataset
 
 Tips for (Visual) Domain Adaptation
 --------------
