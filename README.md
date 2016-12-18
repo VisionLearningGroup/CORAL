@@ -6,7 +6,7 @@ Welcome to the website of [CORAL framework](https://arxiv.org/abs/1612.01939). C
 Source Code and Data
 --------------
 1. CORAL: the source code is in code/CORAL_Source_Code.zip, the data used in reference 1 is included in /dataset folder
-2. CORAL-LDA: the code and data can be found [here](https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality)
+2. CORAL-LDA: the code and data can be found [here](https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality) As can be seen from the title of the paper (From Virtual to Reality: Fast Adaptation of Virtual Object Detectors to Real Domains), another major contribution is ''From Virtual to Reality''. In this paper, we ''(1) we show that freely available non-photorealistic 3D models can be used to train 2D object detectors, in a first such study that evaluates across a large variety of categories; (2) we eliminate the need to generate images that match real-image statistics by utilizing domain-specific image statistics; (3) we present a supervised adaptation approach, and show improved results on a multi-domain dataset.'' Please refer to [this webpage](https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality) for more detailed information.
 3. Deep-CORAL: the source code is in code/D-CORAL.zip, sample protofiles and parameters can be found in code/D-CORAL_Office31.zip, the data used is the standard Office31 dataset
 
 Tips for (Visual) Domain Adaptation
@@ -42,9 +42,6 @@ Reference 1: [CORAL](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/downloa
 ```
 
 Reference 2: [CORAL-LDA](https://github.com/UMassLowell-Vision-Group/bmvc2014/raw/master/bmvc14_paper.pdf)
-
-As can be seen from the title of the paper, another major contribution is ''From Virtual to Reality''. In this paper, we ''(1) we show that freely available non-photorealistic 3D models can be used to train 2D object detectors, in a first such study that evaluates across a large variety of categories; (2) we eliminate the need to generate images that match real-image statistics by utilizing domain-specific image statistics; (3) we present a supervised adaptation approach, and show improved results on a multi-domain dataset.''
-Please refer to [this webpage](https://github.com/UMassLowell-Vision-Group/From-Virtual-to-Reality) for more detailed information.
 ```
 @inproceedings{coral-lda,
     Author={Baochen Sun and Kate Saenko},
