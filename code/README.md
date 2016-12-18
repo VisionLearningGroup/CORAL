@@ -1,0 +1,1 @@
+The files of the Deep CORAL Office31 experiment is in D-CORAL_Office31.zip. Sample protofile for A->W is in also provided. For other shifts, one can change the protofile according to the weight provided in the log files. Please make sure the batch_size in the trainval prototxt and test_iter in the solver prototxt match the size of the TARGET dataset.
